@@ -2,7 +2,7 @@
   "name": "Success Zone Quiz",
   "short_name": "SuccessZone",
   "description": "Educational Quiz App for Computer Science and GK",
-  "start_url": "./QPindex.html",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#FFD93D",
   "theme_color": "#1E90FF",
