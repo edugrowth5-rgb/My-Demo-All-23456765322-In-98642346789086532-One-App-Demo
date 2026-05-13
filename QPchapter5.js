@@ -66,6 +66,44 @@ const chapter5Data = [
     { q: "Shortcut key to Exit/Quit Microsoft Access is:", options: ["Ctrl + Q", "Alt + F4", "Ctrl + X", "Shift + Esc"], correct: 1 },
     { q: "Shortcut key to Save a record:", options: ["Ctrl + S", "Ctrl + N", "Ctrl + R", "Alt + S"], correct: 0 },
     { q: "Access 2010 onwards used which extension?", options: [".mdb", ".accdb", ".docx", ".dbf"], correct: 1 },
-    { q: "To open an existing database, go to File -> ________.", options: ["New", "Open", "Recent", "Save"], correct: 1 }
-    // (Total 200 questions logic complete)
+    { q: "To open an existing database, go to File -> ________.", options: ["New", "Open", "Recent", "Save"], correct: 1 },
+    { q: "Which key is known as a unique identifier of a database table?", options: ["Foreign Key", "Primary Key", "Master Key", "Enter Key"], correct: 1 },
+    { q: "A primary key can neither have duplicated data nor can it be ________.", options: ["Numbered", "Left blank", "Deleted", "Formatted"], correct: 1 },
+    { q: "Which of the following is an example of a unique identifier?", options: ["Student's name", "Aadhaar Card number", "City name", "Hobby"], correct: 1 },
+    { q: "To set a primary key, in which view should you open the table?", options: ["Datasheet View", "Design View", "Print View", "Layout View"], correct: 1 },
+    { q: "In Design View, the Primary Key option is found in which group?", options: ["Records group", "Tools group", "Views group", "Tables group"], correct: 1 },
+    { q: "When more than one fields are combined to uniquely identify a record, it is called:", options: ["Multiple Key", "Composite Key", "Group Key", "Double Key"], correct: 1 },
+    { q: "By default, which data type appears when you enter a new field name in Design View?", options: ["Number", "Short Text", "Yes/No", "Date"], correct: 1 },
+    { q: "Which column in Design View is optional and used for specifying comments for future reference?", options: ["Field Name", "Data Type", "Description", "Field Properties"], correct: 2 },
+
+    // --- Section 9: Entering and Modifying Data ---
+    { q: "Data can be inserted or entered into a table only in which view?", options: ["Design View", "Datasheet View", "Backstage View", "SQL View"], correct: 1 },
+    { q: "In Datasheet View, which symbol marks the row where your new data will be entered?", options: ["Plus (+)", "Asterisk (*)", "Arrow (>)", "Dollar ($)"], correct: 1 },
+    { q: "Which key allows you to move to the next field while entering data?", options: ["Esc", "Tab or Enter", "Shift", "Space"], correct: 1 },
+    { q: "Where can you observe the current record number in MS Access?", options: ["Title Bar", "Record navigation bar", "Ribbon", "Status Bar"], correct: 1 },
+    { q: "To add a new record, you can click the 'New' option in the Records group of which tab?", options: ["Insert", "Home", "Create", "Design"], correct: 1 },
+    { q: "After modifying or editing a record, the edited record is saved ________.", options: ["Manually", "Automatically", "Never", "In a new file"], correct: 1 },
+
+    // --- Section 10: Managing Fields (Add, Delete, Hide) ---
+    { q: "To add a field by right-clicking on a column header, you should be in:", options: ["Datasheet View", "Design View", "Form View", "Backstage View"], correct: 0 },
+    { q: "When you insert a new field in Datasheet View, what is its default temporary name?", options: ["FieldN", "NewColumn", "Column1", "AccessField"], correct: 0 },
+    { q: "To delete a field, you can right-click the field name and select ________ from the context menu.", options: ["Remove", "Delete Field", "Clear Column", "Cut"], correct: 1 },
+    { q: "What appears on the screen before a field is actually deleted in Access?", options: ["A sound", "A warning message", "A blue screen", "The computer restarts"], correct: 1 },
+    { q: "To move a field, you must click on the field name and drag the ________ that appears.", options: ["Red line", "Dark black line", "Dotted line", "White arrow"], correct: 1 },
+    { q: "Which option in the context menu allows you to make a field invisible without deleting it?", options: ["Delete", "Hide", "Freeze", "Unbind"], correct: 1 },
+    { q: "To bring back a hidden field, you must select which option?", options: ["Show all", "Unhide Fields", "Reveal", "Insert"], correct: 1 },
+
+    // --- Section 11: Sorting, Filtering & Searching ---
+    { q: "Arranging data in ascending or descending order is called:", options: ["Filtering", "Sorting", "Searching", "Grouping"], correct: 1 },
+    { q: "Which sorting order arranges text from A to Z?", options: ["Descending", "Ascending", "Random", "Logical"], correct: 1 },
+    { q: "Which option allows you to display only a specific set of records based on a condition?", options: ["Sort", "Filter", "Search", "Order"], correct: 1 },
+    { q: "The 'Greater Than' or 'Greater Than or Equal To' options are found in which filter type?", options: ["Text Filters", "Number Filters", "Color Filters", "Auto Filters"], correct: 1 },
+    { q: "Which feature is used when you have to narrow down records based on complex criteria?", options: ["Basic Filter", "Advanced Filter", "Quick Search", "Sort Z to A"], correct: 1 },
+    { q: "What is the file format extension used by MS Access 2010 onwards?", options: [".mdb", ".accdb", ".docx", ".xlsx"], correct: 1 },
+    { q: "Access 2007 introduced which file extension for databases?", options: [".db", ".accdb", ".sql", ".mdb"], correct: 1 },
+    { q: "To find a specific word or date in a huge table, which box on the navigation bar is used?", options: ["Go To", "Search box", "Filter box", "Command box"], correct: 1 },
+
+    // --- Section 12: Exiting & Shortcuts ---
+    { q: "To close the current database without exiting the application, you click File then ________.", options: ["Exit", "Close", "Save", "New"], correct: 1 },
+    { q: "Which shortcut key combination is used to quit Microsoft Access?", options: ["Alt + F4", "Ctrl + Q", "Alt + C", "Ctrl + X"], correct: 0 }
 ];
