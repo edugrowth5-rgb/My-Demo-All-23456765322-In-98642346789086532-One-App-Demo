@@ -52,6 +52,8 @@ function loadChapter(chapterNumber) {
     } else if(chapterNumber === 4) {
         // Naya Networking Chapter yahan add kiya gaya hai
         quizData = chapter3Data; 
+    } else if(chapterNumber === 5) {
+    quizData = chapter5Data; // Chapter 5 (Access) load hoga
     }
     
     // Baki logic bilkul perfect hai
